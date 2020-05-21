@@ -1,0 +1,20 @@
+declare const str: string;
+declare const num: number;
+declare const bol: boolean;
+declare const nl: null;
+declare const und: undefined;
+declare const sb: unique symbol;
+declare const max: number;
+declare const max2: bigint;
+declare let value1: any;
+declare let value2: unknown;
+declare const emptyArr: never[];
+declare const array1: string[];
+declare const array2: Array<string>;
+declare const array3: Array<string | number>;
+declare const tuple1: [string];
+declare const tuple2: [string, number];
+declare const obj: {
+    name: string;
+    age: number;
+};
